@@ -17,6 +17,9 @@ namespace EloquaStepCanvas
             string Path = Server.MapPath(".") + "\\PhilipsEloqua.log";
             Response.Write("<a href='" + Path + "'>Download here</a>");
 
+            if (File.Exists(Path))
+                Response.Write("File available here");
+
             //hypDownloadLog.NavigateUrl = Server.MapPath("PhilipsEloqua.log");
             //string path = string.Empty;
             //path = Server.MapPath("PhilipsEloqua.log");
