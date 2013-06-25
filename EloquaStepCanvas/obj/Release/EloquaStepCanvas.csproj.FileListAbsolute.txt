@@ -10,6 +10,7 @@ C:\Users\ING03605\Documents\GitHub\EloquaStepCanvas\EloquaStepCanvas\obj\Release
 C:\Users\ING03605\Documents\GitHub\EloquaStepCanvas\EloquaStepCanvas\obj\Release\EloquaStepCanvas.pdb
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\EloquaStepCanvas.dll
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\EloquaStepCanvas.pdb
+C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\log4net.dll
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\obj\Release\ResolveAssemblyReference.cache
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\obj\Release\EloquaStepCanvas.dll
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\obj\Release\EloquaStepCanvas.pdb
