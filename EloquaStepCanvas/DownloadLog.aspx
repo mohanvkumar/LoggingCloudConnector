@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:HyperLink ID="hypDownloadLog" runat="server">Download</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server">HyperLink</asp:HyperLink>
     
     </div>
     </form>
