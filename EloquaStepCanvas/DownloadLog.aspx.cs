@@ -13,8 +13,9 @@ namespace EloquaStepCanvas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            HyperLink1.NavigateUrl = Server.MapPath("default.aspx"); 
-            Response.Write("Path : " + Server.MapPath("."));
+            HyperLink1.NavigateUrl = Server.MapPath("default.aspx");
+            string Path = Server.MapPath(".") + "\\PhilipsEloqua.log";
+            Response.Write("<a href='" + Path + "'>Download here</a>");
 
             //hypDownloadLog.NavigateUrl = Server.MapPath("PhilipsEloqua.log");
             //string path = string.Empty;
