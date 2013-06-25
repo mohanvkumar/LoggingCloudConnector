@@ -24,12 +24,23 @@ namespace EloquaStepCanvas
             else
             {
                 Response.Write("File is diffenence Souce");
-                path = Server.MapPath(".") + "PhilipsEloqua.log";
+                path = Server.MapPath(".") + "\\PhilipsEloqua.log";
                 if (File.Exists(path))
                 {
                     Response.Write("File Exists in Path 2 : " + path);
                     HyperLink1.Text = "Path2";
                     HyperLink1.NavigateUrl = path;
+                }
+                else
+                {
+                    Response.Write("File not found");
+                    path = Server.MapPath("..") + "\\PhilipsEloqua.log";
+                    if (File.Exists(path))
+                    {
+                        Response.Write("File Exists in Path 3 : " + path);
+                        HyperLink1.Text = "Path2";
+                        HyperLink1.NavigateUrl = path;
+                    }
                 }
             }
         }
