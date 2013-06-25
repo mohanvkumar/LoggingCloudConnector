@@ -14,35 +14,45 @@ namespace EloquaStepCanvas
         protected void Page_Load(object sender, EventArgs e)
         {
             //hypDownloadLog.NavigateUrl = Server.MapPath("PhilipsEloqua.log");
-            string path = string.Empty;
-            path = Server.MapPath("PhilipsEloqua.log");
-            if (File.Exists(path))
+            //string path = string.Empty;
+            //path = Server.MapPath("PhilipsEloqua.log");
+            //if (File.Exists(path))
+            //{
+            //    Response.Write("File Exists in Path 1 : " + path);
+            //    HyperLink1.NavigateUrl = path;
+            //}
+            //else
+            //{
+            //    Response.Write("File is diffenence Souce");
+            //    path = Server.MapPath(".") + "\\PhilipsEloqua.log";
+            //    if (File.Exists(path))
+            //    {
+            //        Response.Write("File Exists in Path 2 : " + path);
+            //        HyperLink1.Text = "Path2";
+            //        HyperLink1.NavigateUrl = path;
+            //    }
+            //    else
+            //    {
+            //        Response.Write("File not found");
+            //        path = Server.MapPath("..") + "\\PhilipsEloqua.log";
+            //        if (File.Exists(path))
+            //        {
+            //            Response.Write("File Exists in Path 3 : " + path);
+            //            HyperLink1.Text = "Path2";
+            //            HyperLink1.NavigateUrl = path;
+            //        }
+            //    }
+
+            string[] filePaths = Directory.GetFiles(Server.MapPath("."), "*.log",
+                                         SearchOption.AllDirectories);
+
+            foreach (string s in filePaths)
             {
-                Response.Write("File Exists in Path 1 : " + path);
-                HyperLink1.NavigateUrl = path;
+                Response.Write(s + "<br>");
             }
-            else
-            {
-                Response.Write("File is diffenence Souce");
-                path = Server.MapPath(".") + "\\PhilipsEloqua.log";
-                if (File.Exists(path))
-                {
-                    Response.Write("File Exists in Path 2 : " + path);
-                    HyperLink1.Text = "Path2";
-                    HyperLink1.NavigateUrl = path;
-                }
-                else
-                {
-                    Response.Write("File not found");
-                    path = Server.MapPath("..") + "\\PhilipsEloqua.log";
-                    if (File.Exists(path))
-                    {
-                        Response.Write("File Exists in Path 3 : " + path);
-                        HyperLink1.Text = "Path2";
-                        HyperLink1.NavigateUrl = path;
-                    }
-                }
-            }
+            
+
+            
         }
 
         protected void btnDownload_Click(object sender, EventArgs e)
