@@ -13,6 +13,8 @@ namespace EloquaStepCanvas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            HyperLink1.NavigateUrl = Server.MapPath("default.aspx"); 
+
             //hypDownloadLog.NavigateUrl = Server.MapPath("PhilipsEloqua.log");
             //string path = string.Empty;
             //path = Server.MapPath("PhilipsEloqua.log");
@@ -43,13 +45,14 @@ namespace EloquaStepCanvas
             //        }
             //    }
 
-            string[] filePaths = Directory.GetFiles(Server.MapPath("."), "*.log",
-                                         SearchOption.AllDirectories);
+            //string[] filePaths = Directory.GetFiles(Server.MapPath("."), "*.log",
+            //                             SearchOption.AllDirectories);
 
-            foreach (string s in filePaths)
-            {
-                Response.Write(s + "<br>");
-            }
+            //foreach (string s in filePaths)
+            //{
+            //    Response.Write(s + "<br>");
+            //}
+            
             
 
             
