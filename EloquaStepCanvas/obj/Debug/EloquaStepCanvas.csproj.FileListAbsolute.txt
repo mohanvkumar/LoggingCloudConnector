@@ -34,7 +34,9 @@ C:\Users\ING03605\Documents\GitHub\EloquaStepCanvas\EloquaStepCanvas\obj\Debug\E
 C:\Users\ING03605\Documents\GitHub\EloquaStepCanvas\EloquaStepCanvas\obj\Debug\EloquaStepCanvas.pdb
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\EloquaStepCanvas.dll
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\EloquaStepCanvas.pdb
-C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\obj\Debug\EloquaStepCanvas.dll
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\obj\Debug\EloquaStepCanvas.pdb
 C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\log4net.dll
+C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\Web.config
+C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\Web.Debug.config
+C:\Users\ING03605\Documents\GitHub\LoggingCloudConnector\EloquaStepCanvas\bin\Web.Release.config
